@@ -1,6 +1,16 @@
 # git_apis_cli
 
-Sample Usage
+CLI to make requests to github API. 
+
+https://docs.github.com/en/rest/overview/endpoints-available-for-github-apps
+
+# Supported Endpoints
+
+-  repos 
+   - Languages : https://docs.github.com/en/rest/reference/repos#list-repository-languages
+   - Contributors : GET /repos/{owner}/{repo}/stats/contributors
+-  users
+   - GET /users/{username}
 
 ```
 $ python3 git_apis --help
