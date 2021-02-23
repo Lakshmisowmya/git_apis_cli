@@ -4,7 +4,7 @@ CLI to make requests to github API.
 
 https://docs.github.com/en/rest/overview/endpoints-available-for-github-apps
 
-# Supported Endpoints
+## Supported Endpoints
 
 -  repos 
    - Languages : https://docs.github.com/en/rest/reference/repos#list-repository-languages
@@ -12,7 +12,7 @@ https://docs.github.com/en/rest/overview/endpoints-available-for-github-apps
 -  users
    - userDetails : https://docs.github.com/en/rest/reference/users#get-a-user
 
-# Usage
+## Usage
 
 ```
 $ python3 git_apis --help
