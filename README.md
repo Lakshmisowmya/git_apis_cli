@@ -35,5 +35,13 @@ Options:
   -o, --owner TEXT  Return only repos of this owner  [required]
   --help            Show this message and exit.
   
+$ python3 git_apis users --help
+Usage: git_apis users [OPTIONS] USERNAME
+
+  Get User details
+
+Options:
+  --help  Show this message and exit.
+  
 $ python3 git_apis users Lakshmisowmya
 {'login': 'Lakshmisowmya', 'id': 20332588, 'node_id': 'MDQ6VXNlcjIwMzMyNTg4', 'avatar_url': 'https://avatars.githubusercontent.com/u/20332588?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Lakshmisowmya', 'html_url': 'https://github.com/Lakshmisowmya', 'followers_url': 'https://api.github.com/users/Lakshmisowmya/followers', 'following_url': 'https://api.github.com/users/Lakshmisowmya/following{/other_user}', 'gists_url': 'https://api.github.com/users/Lakshmisowmya/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Lakshmisowmya/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Lakshmisowmya/subscriptions', 'organizations_url': 'https://api.github.com/users/Lakshmisowmya/orgs', 'repos_url': 'https://api.github.com/users/Lakshmisowmya/repos', 'events_url': 'https://api.github.com/users/Lakshmisowmya/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Lakshmisowmya/received_events', 'type': 'User', 'site_admin': False, 'name': None, 'company': None, 'blog': '', 'location': None, 'email': None, 'hireable': None, 'bio': None, 'twitter_username': None, 'public_repos': 8, 'public_gists': 0, 'followers': 2, 'following': 1, 'created_at': '2016-07-07T05:46:42Z', 'updated_at': '2021-02-23T17:28:00Z'}
