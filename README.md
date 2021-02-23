@@ -28,7 +28,7 @@ Commands:
   users  Get User details
 ```
 
-# Repos
+## **Repos**
 ```
 $ python3 git_apis repos --help
 Usage: git_apis repos [OPTIONS] [languages|contributors]
@@ -57,7 +57,7 @@ $ python3 git_apis repos languages --repo grafana --owner grafana
 {'TypeScript': 9093075, 'Go': 4226351, 'JavaScript': 706586, 'HTML': 419262, 'Rich Text Format': 352348, 'SCSS': 259056, 'Shell': 138556, 'Dockerfile': 38004, 'Python': 35068, 'Jsonnet': 33059, 'CSS': 19419, 'Makefile': 6720, 'Smarty': 2116, 'PHP': 574}
  ```
  
- # Users
+ ## **Users**
  ```
 $ python3 git_apis users --help
 Usage: git_apis users [OPTIONS] USERNAME
