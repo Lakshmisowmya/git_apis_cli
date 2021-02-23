@@ -1,4 +1,4 @@
-# git_cli
+# git_apis_cli
 
 Sample Usage
 
