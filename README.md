@@ -12,6 +12,8 @@ https://docs.github.com/en/rest/overview/endpoints-available-for-github-apps
 -  users
    - userDetails : https://docs.github.com/en/rest/reference/users#get-a-user
 
+# Usage
+
 ```
 $ python3 git_apis --help
 Usage: git_apis [OPTIONS] COMMAND [ARGS]...
@@ -44,6 +46,9 @@ Options:
   -r, --repo TEXT   Return details of this repo  [required]
   -o, --owner TEXT  Return only repos of this owner  [required]
   --help            Show this message and exit.
+  
+$ python3 git_apis repos languages --repo grafana --owner grafana
+{'TypeScript': 9093075, 'Go': 4226351, 'JavaScript': 706586, 'HTML': 419262, 'Rich Text Format': 352348, 'SCSS': 259056, 'Shell': 138556, 'Dockerfile': 38004, 'Python': 35068, 'Jsonnet': 33059, 'CSS': 19419, 'Makefile': 6720, 'Smarty': 2116, 'PHP': 574}
   
 $ python3 git_apis users --help
 Usage: git_apis users [OPTIONS] USERNAME
