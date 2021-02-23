@@ -8,9 +8,9 @@ https://docs.github.com/en/rest/overview/endpoints-available-for-github-apps
 
 -  repos 
    - Languages : https://docs.github.com/en/rest/reference/repos#list-repository-languages
-   - Contributors : GET /repos/{owner}/{repo}/stats/contributors
+   - Contributors : https://docs.github.com/en/rest/reference/repos#list-repository-contributors
 -  users
-   - GET /users/{username}
+   - userDetails : https://docs.github.com/en/rest/reference/users#get-a-user
 
 ```
 $ python3 git_apis --help
