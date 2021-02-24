@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='git-apis',  
-     version='0.2',
-     scripts=['git_apis'] ,
+     version='0.6',
+     scripts=['git-apis'] ,
      author="LakshmiSowmyaG",
      author_email="sowmyalakshmi35@gmail.com",
      description="A GitHub api utility package",
